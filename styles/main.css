@@ -166,6 +166,7 @@ section#about{
     font-size: 50px;
     color: #111111;
     line-height: 44px;
+    font-family: var(--Abel);
 }
 
 #about .about-words p{
@@ -290,7 +291,7 @@ section#reservation{
     margin: 0 auto;
 }
 
-form select, form input {
+#reservation form select, #reservation form input {
     display: block;
     width: 90%;
     margin: 15px 12px;
@@ -303,13 +304,13 @@ form select, form input {
     font-weight: 300;
 }
 
-form input[type = text], form input[type = number],
-form input[type = date], form input::placeholder, 
+#reservation form input[type = text], #reservation form input[type = number],
+#reservation form input[type = date], #reservation form input::placeholder, 
 select {
     color: #9a9a9a;
 }
 
-form input[type = submit] {
+#reservation form input[type = submit] {
     color: #ffffff;
     background: #bb9138;
     padding: 12px 0;
@@ -317,15 +318,120 @@ form input[type = submit] {
     cursor: pointer;
 }
 
-form input[type = submit]:hover {
+#reservation form input[type = submit]:hover {
     opacity: 0.8;
 }
 
 
 /* ----contact section---- */
 section#contact{
-    background: rgba(0, 0, 0, 0.55);
-    
+    background: rgba(17, 7, 3, 0.55);
+}
+
+#contact .contact-section {
+    display: block;
+}
+
+#contact .contact-info {
+    color: #fdfcfc;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+    float: left;
+}
+
+.contact-info h2{
+    display: none;
+    color: #fdfcfc;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#contact .contact-info i {
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+
+#contact form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+    float: right;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+}
+
+.contact-form h2{
+    color: #fdfcfc;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box {
+    background: #000;
+    color: #fdfcfc;
+    border: none;
+    width: calc(50% -10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+.contact-form .text-box:first-child {
+    margin-right: 15px;
+}
+
+.contact-form textarea {
+    background: #000;
+    color: #fdfcfc;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+.contact-form .send-btn {
+    float: right;
+    background: #bb9138;
+    color: #fdfcfc;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    transition-property: background;
+}
+
+.contact-form .send-btn:hover {
+    background: #eca407;
 }
 
 
@@ -419,5 +525,20 @@ section#contact{
 
     #reservation .card-img {
         display: none;
+    }
+
+/*----contact----*/
+    .contact-info h2{
+        display: block;
+        font-size: 30px;
+    }
+
+    .contact-form h2{
+        display: none;
+        font-size: 30px;
+    }
+
+    .contact-form .text-box {
+        width: 100%;
     }
 }
