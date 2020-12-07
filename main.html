@@ -22,7 +22,7 @@
       </label>
       <!-- ========== -->
 
-      <a href="#home" class="logo">LOGO<span>FOOD</span></a>
+      <a href="#home" class="logo">logo<span>food</span></a>
 
       <ul>
         <li><a href="#home">Home</a></li>
@@ -43,7 +43,7 @@
 
     <section id="about">
       <div>
-        <img src="./img/about.jpg" alt="about" class="about-img" style="width: 300px; height: 400px;">
+        <img src="./img/about-us.jpg" alt="about" class="about-img">
         <div class="about-words">
           <h3>Discover<br><span>Our Story</span></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem delectus facilis explicabo, fugiat officia quod eos, nisi dolor excepturi consectetur enim nemo illo, saepe reprehenderit voluptates quaerat quam ullam. Harum illum officiis nesciunt non, quaerat libero ex inventore laboriosam et numquam tempore ad natus a fugiat, impedit pariatur itaque cupiditate sapiente quisquam doloremque adipisci.</p>
@@ -55,49 +55,74 @@
     </section>
 
     <section id="menu">
+      <h2>Discover our amazing menu</h2>
       <div class="menu-content">
-        <div class="posts">
-          <div>
-            <h2>Discover<br><span>Our Menu</span></h2>
-          </div>
-          <div class="img"></div>
-          <div>
-            <h4>Breakfast</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae!</p>
-          </div>
-          <div class="img"></div>
-          <div>
-            <h4>drinks</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae!</p>
-          </div>
-        </div>
-
-        <aside>
-          <div>
-            <h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea praesentium, adipisci cum quam expedita vitae unde non aliquam recusandae?
-            </h3>
-            <div class="img"></div>
-            <div>
-              <h4>drinks</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae!</p>
-            </div>
-            <div class="img"></div>
-            <div>
-              <h4>drinks</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae!</p>
-            </div>
-          </div>
-        </aside>
+        <div class="item1"><a href="#"><img src="./img/home-menu/brocolli-shake.jpg" alt="brocolli shake"><p>Brocolli shake</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/chocolate-donuts.jpg" alt="Chocolate donots"><p>Chocolate doughnut</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/coffee.jpg" alt="coffee"><p>Coffee</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/croissant.jpg" alt="croissant"><p>Croissant</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/ice-cream.jpg" alt="ice-cream"><p>Ice-cream</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/macarons.jpg" alt="macarons"><p>Macarons</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/orange-drink.jpg" alt="orange drink"><p>Orange drink</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/pancake.jpg" alt="pancake"><p>Pancake</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/strawberry-shake.jpg" alt="strawberry-shake"><p>Strawberry shake</p></a></div>
+        <div class="item1"><a href="#"><img src="./img/home-menu/hamburger.jpg" alt="burger and fries"><p>Burger and fries</p></a></div>
       </div>
+      <button class="menubtn"><a href="#">View More</a></button>
     </section>
 
     <section id="reservation">
-      <h2>Cart</h2>
+      <h2>BOOK YOUR TABLE NOW</h2>
+      <div class="card-container">
+        <div class="card-img">
+          <!--image here-->
+        </div>
+
+        <div class="card-content">
+          <h3>Reservation</h3>
+          <form>
+            <div class="form-row">
+              <input type="date">
+
+              <select name="hours" id="hours">
+                <option value="hour-select">Select Hour</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+                <option value="19">19:00</option>
+                <option value="20">20:00</option>
+                <option value="21">21:00</option>
+                <option value="22">22:00</option>
+              </select>
+            </div>
+            
+            <div class="form-row">
+              <input type="text" placeholder="Full Name">
+              <input type="text" placeholder="Phone Number">
+            </div>
+            
+            <div class="form-row">
+              <input type="number" placeholder="How many persons?" min="1">
+              <input type="submit" value="BOOK TABLE">
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
+    </section>
+    
+  </main>
+</body>
+</html>
     </section>
     
   </main>
