@@ -8,6 +8,8 @@
     <!-- font Awesome style -->
     <link rel="stylesheet" href="./styles/all.css">
 
+    
+
     <!-- css style sheet -->
     <link rel="stylesheet" href="./styles/main.css">
 </head>
@@ -38,20 +40,18 @@
     <section id="home">
       <h1>Welcome</h1>
       <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas.</h2>
-      <button class="homebtn"><a href="#">Book A Table</a></button>
+      <button class="homebtn"><a href="#reservation">Book A Table</a></button>
     </section>
 
     <section id="about">
       <div>
         <img src="./img/about-us.jpg" alt="about" class="about-img">
         <div class="about-words">
-          <h3>Discover<br><span>Our Story</span></h3>
+          <h3>Discover Our Story</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem delectus facilis explicabo, fugiat officia quod eos, nisi dolor excepturi consectetur enim nemo illo, saepe reprehenderit voluptates quaerat quam ullam. Harum illum officiis nesciunt non, quaerat libero ex inventore laboriosam et numquam tempore ad natus a fugiat, impedit pariatur itaque cupiditate sapiente quisquam doloremque adipisci.</p>
-          <h2><a href="#">More About Us</a></h2>
+          <h2><a href="./html/about.html">More About Us</a></h2>
         </div>
       </div>
-      
-      
     </section>
 
     <section id="menu">
@@ -68,7 +68,7 @@
         <div class="item1"><a href="#"><img src="./img/home-menu/strawberry-shake.jpg" alt="strawberry-shake"><p>Strawberry shake</p></a></div>
         <div class="item1"><a href="#"><img src="./img/home-menu/hamburger.jpg" alt="burger and fries"><p>Burger and fries</p></a></div>
       </div>
-      <button class="menubtn"><a href="#">View More</a></button>
+      <button class="menubtn"><a href="./html/menu.html">View More</a></button>
     </section>
 
     <section id="reservation">
@@ -117,14 +117,31 @@
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
+      <div class="contact-section">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <div><i class="fas fa-map-marker-alt"></i>Address</div>
+          <div><i class="fas fa-envelope-square"></i>contact@email.com</div>
+          <div><i class="fas fa-phone">+234-8144 976 291</i></div>
+          <div><i class="fas fa-clock">Mon - Sun 9:00 AM to 10:00 PM</i></div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form class="contact">
+            <input type="text" class="text-box" placeholder="Name" required>
+            <input type="email" class="text-box" placeholder="Email" required>
+            <textarea name="message" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" class="send-btn" value="Send">
+          </form>
+        </div>
+      </div>
     </section>
     
   </main>
+
 </body>
-</html>
-    </section>
-    
-  </main>
-</body>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </html>
