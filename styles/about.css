@@ -1,0 +1,62 @@
+@import url(../styles/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Livvic: 'Livvic', cursive;
+}
+
+body {
+    background: rgba(116, 112, 112, 0.5);
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+a.logo {
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+    font-family: var(--Livvic);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.logo span {
+    color: #c73b7c;
+}
+
+a.logo:hover {
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h1 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+a.home-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.home-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
